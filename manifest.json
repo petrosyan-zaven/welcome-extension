@@ -1,0 +1,16 @@
+{
+  "name": "Welcome",
+  "description": "Add welcome to https://example.com",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author" : "Zaven Petrosyan",
+  "content_scripts":[
+    {
+      "matches":[
+        "http://example.com/",
+        "https://example.com/"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
